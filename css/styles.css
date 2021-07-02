@@ -127,6 +127,9 @@ img {
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  display: flex;
+  align-items: center;
 }
 .contacts-mail:hover,
 .contacts-mail:focus {
@@ -140,10 +143,21 @@ img {
   letter-spacing: 0.02em;
 
   color: #757575;
+
+  display: flex;
+  align-items: center;
 }
 .contacts-phone-number:hover,
 .contacts-phone-number:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+.icon-contact {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.icon-contact:hover,
+.icon-contact:focus {
+  color: var(--accent-color);
 }
 .header-container {
   display: flex;
@@ -170,7 +184,10 @@ body {
 /*----------------Hero-----------------------*/
 
 .hero {
-  background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/bg-img/bg-img.jpg');
+  background-color: #c4c4c4;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -222,6 +239,13 @@ body {
   display: flex;
   align-items: center;
 }
+.icon-group {
+  width: 270px;
+  height: 120px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
 .advantages-title-item {
   font-weight: 700;
   font-size: 14px;
@@ -234,7 +258,7 @@ body {
 .advantages-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 24px;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -245,7 +269,7 @@ body {
 }
 .advantages-list-item {
   width: 270px;
-  /* flex-basis: calc((100% - 120px) / 4); */
+  flex-basis: calc((100% - 120px) / 4);
 }
 .advantages-list-item:not(:last-child) {
   margin-right: 30px;
