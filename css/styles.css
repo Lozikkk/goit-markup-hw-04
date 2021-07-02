@@ -393,6 +393,63 @@ body {
 }
 
 /*-----------------End Our Team----------------------*/
+
+/*----------------- Our Partners----------------------*/
+.our-partners {
+  background-color: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-partners-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  margin-bottom: 50px;
+}
+.our-partners-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-top: -30px;
+  margin-left: -30px; */
+
+  fill: #afb1b8;
+}
+.our-partners-list:hover,
+.our-partners-list:focus {
+  fill: var(--accent-color);
+}
+.icon-partners {
+  display: flex;
+  align-items: center;
+}
+.our-partners-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  width: 170px;
+  height: 92px;
+  left: 215px;
+  top: 2493px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.our-partners-item {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+/*-----------------End Our Partners----------------------*/
+
 /*-----------------Footer-------------------------*/
 .footer {
   background-color: #2f303a;
