@@ -240,11 +240,17 @@ body {
   align-items: center;
 }
 .icon-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 270px;
   height: 120px;
 
   background: #f5f4fa;
   border-radius: 4px;
+
+  margin-bottom: 30px;
 }
 .advantages-title-item {
   font-weight: 700;
