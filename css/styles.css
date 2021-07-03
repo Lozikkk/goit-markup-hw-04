@@ -489,7 +489,6 @@ body {
 .footer-title {
   width: 145px;
   height: 16px;
-  margin-top: ;
 
   font-family: var(--main-font);
   font-style: normal;
@@ -555,7 +554,9 @@ body {
 .footer-social-item {
   display: flex;
 }
-
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
 .footer-social-link {
   display: flex;
   align-items: center;
@@ -570,6 +571,7 @@ body {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }
+
 /*------------------End Footer--------------------*/
 
 /*-----------------Portfolio----------------------*/
