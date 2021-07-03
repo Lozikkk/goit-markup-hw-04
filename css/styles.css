@@ -400,10 +400,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.our-partners-container {
-  display: flex;
-  align-items: center;
-}
+
 .our-partners-title {
   font-weight: 700;
   font-size: 36px;
@@ -412,18 +409,13 @@ body {
   letter-spacing: 0.03em;
 
   color: #212121;
-
   margin-bottom: 50px;
 }
 .our-partners-list {
-  width: 100%;
-  height: 100%;
+  fill: #afb1b8;
+
   display: flex;
   align-items: center;
-  margin-top: -30px;
-  margin-left: -30px;
-
-  fill: #afb1b8;
 }
 .our-partners-list:hover,
 .our-partners-list:focus {
@@ -448,9 +440,8 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.our-partners-item {
-  margin-top: 30px;
-  margin-left: 30px;
+.our-partners-item:not(:last-child) {
+  margin-right: 30px;
 }
 /*-----------------End Our Partners----------------------*/
 
