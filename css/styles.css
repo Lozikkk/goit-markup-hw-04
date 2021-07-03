@@ -453,7 +453,9 @@ body {
 }
 .flex-footer {
   display: flex;
+  align-items: baseline;
 }
+
 .footer-contacts {
   display: flex;
   flex-direction: column;
@@ -487,6 +489,7 @@ body {
 .footer-title {
   width: 145px;
   height: 16px;
+  margin-top: ;
 
   font-family: var(--main-font);
   font-style: normal;
@@ -552,6 +555,7 @@ body {
 .footer-social-item {
   display: flex;
 }
+
 .footer-social-link {
   display: flex;
   align-items: center;
